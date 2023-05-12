@@ -1,0 +1,46 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memerator 5000</title>
+    <link rel="stylesheet" href="meme-gen.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Memerator 5000</h1>
+    </header>
+    <main>
+      <form id="memeGen">
+        <label for="topText">Top Caption:</label>
+        <input
+          type="text"
+          name="topText"
+          id="topText"
+          placeholder="Insert Here.."
+        />
+        <label for="bottomText">Bottom Caption:</label>
+        <input
+          type="text"
+          name="bottomText"
+          id="bottomText"
+          placeholder="Insert Here..."
+        />
+        <label for="imgUrl">Image url:</label>
+        <input
+          type="url"
+          name="imgUrl"
+          id="imgUrl"
+          placeholder="Insert Here..."
+        />
+        <button type="submit" id="meMa">Meme Magic</button>
+      </form>
+      <div id="memeContainer"></div>
+      <button type="button" id="deleteButton">Obliterator</button>
+    </main>
+    <script src="meme-gen.js"></script>
+  </body>
+</html>
